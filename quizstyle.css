@@ -1,6 +1,6 @@
 body{
     margin: 20px 20px;
-    background: rgb(116, 116, 116);
+    background: rgb(80, 79, 79);
     color: blanchedalmond;
 }
 
@@ -8,5 +8,20 @@ body{
     padding: 20px;
     width: 90%;
     height: 1000px;
+}
 
+header{
+    display: grid;
+    grid-template-columns: 80% 20%;
+    justify-content: flex-end;
+}
+
+.headimg{
+    height: 10vh;
+}
+
+h1{
+    word-spacing: 1em;
+    letter-spacing: 0.5em;
+    text-decoration: underline;
 }
