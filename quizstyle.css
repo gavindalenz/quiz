@@ -2,12 +2,15 @@ body{
     margin: 20px 20px;
     background: rgb(80, 79, 79);
     color: blanchedalmond;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
 }
 
 .excel{
     padding: 20px;
-    width: 90%;
-    height: 1000px;
+    width: 90vw;
+    height: 800px;
+    margin-right: 20px;
 }
 
 header{
@@ -16,12 +19,12 @@ header{
     justify-content: flex-end;
 }
 
-.headimg{
+.heading{
     height: 10vh;
 }
 
 h1{
-    word-spacing: 1em;
-    letter-spacing: 0.5em;
+    word-spacing: 0.5em;
+    letter-spacing: 0.2em;
     text-decoration: underline;
 }
