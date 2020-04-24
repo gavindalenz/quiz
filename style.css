@@ -16,6 +16,19 @@ h2{
 }
 
 
+
+.leaderboard{
+  display: grid;
+  column-gap: 20px;
+  padding: 0px, 30px, 30px, 30px;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+}
+
+.leadName{
+  text-align: center;
+}
+
+
 div.polaroid {
   width: 20em;
   background-color: white;
